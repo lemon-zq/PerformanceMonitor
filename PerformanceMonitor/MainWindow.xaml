@@ -9,10 +9,6 @@
         Title="高级系统性能监控器" Height="800" Width="1000"
         WindowStartupLocation="CenterScreen" Background="#FF1E1E1E" WindowStyle="None"    AllowsTransparency="False"
         ResizeMode="CanResize"     WindowChrome.IsHitTestVisibleInChrome="True">
-    <!-- 核心配置：移除顶部白条并控制边框 [关键：将标题栏高度设为0、消除玻璃边框残留、保留可调整大小的边框厚度 ] -->
-    <WindowChrome.WindowChrome>
-        <WindowChrome CaptionHeight="0" GlassFrameThickness="0" ResizeBorderThickness="5" />
-    </WindowChrome.WindowChrome>
 
     <Window.Resources>
         <!-- 样式定义 -->
